@@ -35,7 +35,7 @@ for i in range(len(csvnames)):
                 p1chars = p1chars.split("+")
                 p2chars = p2chars.split("+")
 
-                outputname = "output/" + outputprefix + tourneyname + " " + round + " - " + p1name + " (" + ", ".join(p1chars) + ") vs " + p2name + " (" + ", ".join(p2chars) + ") " + gamename + " Tournament" + ".mp4"
+                outputname = "output/" + outputprefix + tourneyname + " - " + round + " - " + p1name + " (" + ", ".join(p1chars) + ") vs " + p2name + " (" + ", ".join(p2chars) + ") " + gamename + " Tournament" + ".mp4"
                 
                 description = tourneyname + " is a " + gamename + " tournament organized by " + to + " held on " + date + ".\nTourney Commentators: " + ", ".join(commentators) + "\nBracket: " + bracketlink
 
