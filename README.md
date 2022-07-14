@@ -1,4 +1,9 @@
 # vodCutter9
-Cut vods based on a csv file with timestamps!
+Cut tournament vods into individual sets based on a csv of data!
 
-Automatic thumbnails and description generation too?!
+## Features
+- 
+
+## Todo
+- thumbnail generator
+- split commentator data per set
